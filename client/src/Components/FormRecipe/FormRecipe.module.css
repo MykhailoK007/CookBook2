@@ -1,0 +1,83 @@
+.createContainer{
+    position: absolute;
+    background: white;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+    padding: 8% 4%;
+    height:400px;
+    border-radius:10px;
+    -webkit-box-shadow: 8px 8px 14px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 8px 8px 14px 0px rgba(204,204,204,1);
+    box-shadow: 8px 8px 14px 0px rgba(204,204,204,1);
+    text-align: center;
+    margin-top: 50px;
+}
+.name  input{
+    width: 30%;
+    height: 25px;
+    margin: 3% 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.date{
+    margin:2% 0;
+}
+.date input{
+    margin-left: 3%;
+
+}
+.buttonEddit{
+    width: 50px;
+    border-radius: 10px;
+    background: #fff;
+    margin-left: 10px;
+
+}
+.description{
+    width: 50%;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius:10px;
+    padding: 10px;
+
+}
+.buttonWrapper{
+    width: 80%;
+    margin-top: 3%;
+    text-align: end;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .form{
+        width: 80%;
+    }
+
+}
+@media only screen
+and (min-device-width: 300px)
+and (max-device-width: 812px){
+    .form{
+        width: 95%;
+        height: 350px;
+        margin-bottom: 100px;
+    }
+    .buttonEddit{
+        width: 60px;
+    }
+    .description{
+        width: 80%;
+    }
+    .name input{
+        width: 60%;
+    }
+}

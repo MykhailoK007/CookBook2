@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+
+
+}
+.card{
+  width: 30%;
+  border: 1px solid black;
+}
+.container{
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.addNewRecipe{
+  width: 40px;
+  height: 40px;
+  outline: none;
+  font-size:23px;
+  border-radius:50% ;
+  outline: none;
+}
+.addNewRecipe:hover{
+  background: #4285f4;
+}
+

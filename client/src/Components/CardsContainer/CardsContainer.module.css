@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+@media only screen
+and (min-device-width: 300px)
+and (max-device-width: 812px){
+    .container{
+        width: 100%;
+    }
+}
